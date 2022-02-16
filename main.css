@@ -1,0 +1,14 @@
+#animation{
+    height:70vh;
+}
+
+#stork{
+    height: 20vh;
+    margin-top: 50px;
+    transform:scaleX(-1);
+    display:none;
+}
+
+#textOne{
+    text-align: center;
+}
