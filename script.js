@@ -19,9 +19,7 @@ function timer() {
         document.getElementById('stork').style.display="none";
         document.getElementById('textOne').style.display="none";
     }
-    if (xnum == 40) {
-        bag();
-    }
+    
 
 
 
