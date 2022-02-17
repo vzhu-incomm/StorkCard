@@ -1,0 +1,24 @@
+#animation{
+    height:70vh;
+}
+
+#stork{
+    width: 10vw;
+    margin-top: 50px;
+    transform:scaleX(-1);
+    display:none;
+
+}
+
+#textOne{
+    text-align: center;
+}
+
+#textOneDiv{
+    width: 12vw;
+}
+
+#bag{
+    width:10vw;
+    display:none;
+}
