@@ -15,14 +15,12 @@ function timer() {
 
     if (xnum < 100) {
         disp();
+        bag();
     } else {
         document.getElementById('stork').style.display="none";
         document.getElementById('textOne').style.display="none";
     }
     
-
-
-
     my_time=setTimeout('timer()',1);
 }
 
@@ -38,3 +36,12 @@ function disp() {
     document.getElementById('textOneDiv').style.left = xnum + 0.05 + "vw";//horizontal move
 }
 
+function bag() {
+    document.getElementById("bag").style.display = "block";
+    
+    var x = document.getElementById('bag').style.top;
+    xnum = x.slice(0, -2);
+    xnum = parseFloat(xnum);
+    document.getElementById('bag').style.top = xnum + 0.05 + "vh";
+
+}
