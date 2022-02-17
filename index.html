@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,20 @@
     <link rel="stylesheet" href="main.css" />
     <script src="script.js"></script>
 </head>
-<body>
-    Text 1: <input id = "inputOne" type = "text">
-    Text 2: <input id = "inputTwo" type = "text">
-    <button id = "start" onclick="loadAnimation()">Load Animation!</button>
 
-    <div id = "animation"> 
-        <img id = "stork" src = "https://www.animationplayhouse.com/red_stork.gif">
-        </br> 
-        <div><p id="textOne"></p></div>
+<body>
+    Text 1: <input id="inputOne" type="text">
+    Text 2: <input id="inputTwo" type="text">
+    <button id="start" onclick="loadAnimation()">Load Animation!</button>
+
+    <div id="animation">
+        <img id="stork" style="position:absolute; top:1vh; left:1vw;" src="https://www.animationplayhouse.com/red_stork.gif">
+        </br>
+        <div id="textOneDiv" style = "position:absolute; top:20vh; left:1vw;">
+            <p id="textOne"></p>
+        </div>
+        
     </div>
 </body>
+
 </html>
