@@ -19,6 +19,10 @@ function timer() {
     } else {
         document.getElementById('stork').style.display = "none";
         document.getElementById('textOne').style.display = "none";
+        document.getElementById('bag').style.display = "none";
+        document.getElementById('cloth').style.display = "block";
+        document.getElementById("textTwo").innerText = document.getElementById("inputTwo").value;
+
     }
 
     my_time = setTimeout('timer()', 1);
@@ -38,7 +42,7 @@ function disp() {
     // if (xnum == 40) {
     //     document.getElementById("bag").style.display = "block";
     // }
-    if (xnum > 40) {
+    if (xnum > 45) {
         bag();
     }
 }
