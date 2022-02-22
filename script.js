@@ -56,21 +56,23 @@ function box() {
     var y = document.getElementById('boxback').style.top;
     ynum = y.slice(0, -2);
     ynum = parseFloat(ynum);
-    if (ynum < 27) {
+    if (ynum < 26) {
         document.getElementById('boxback').style.top = ynum + 0.025 + "vh";
         document.getElementById('boxfront').style.top = ynum + 0.025 + "vh";
         document.getElementById('boxlid').style.top = ynum + 0.025 + "vh";
         document.getElementById('giftcard').style.top = ynum + 0.025 + "vh";
 
-    } else if (ynum < 40) {
+    } else if (ynum < 41) {
         if (document.getElementById("giftcard").style.display == "none") {
             document.getElementById("giftcard").style.display = "block";
         }
-        document.getElementById("textTwoText").style.display = "block";
+        document.getElementById("textTwoText").style.display = "flex";
         document.getElementById('boxback').style.top = ynum + 0.025 + "vh";
         document.getElementById('giftcard').style.top = ynum + 0.025 + "vh";
         document.getElementById('textTwoText').innerText = document.getElementById("inputTwo").value;
         document.getElementById('textTwoText').style.top=document.getElementById('giftcard').style.top;
+        //document.getElementById('textTwoText').style.height=document.getElementById('giftcard').style.height;
+
         //console.log(document.getElementById('textTwoText').style.top);
         document.getElementById('boxfront').style.top = ynum + 0.025 + "vh";
     } else if (ynum < 60){

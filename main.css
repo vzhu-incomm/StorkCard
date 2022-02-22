@@ -3,7 +3,7 @@
 }
 
 #stork{
-    width: 11vw;
+    width: 12vw;
     margin-top: 50px;
     transform:scaleX(-1);
     display:none;
@@ -55,7 +55,9 @@
 }
 
 #textTwoText{
-    
+    align-items: center;
+    justify-content: center;
+
     right:0;
     bottom:0;
     width:25vw;
