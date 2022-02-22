@@ -3,7 +3,7 @@
 }
 
 #stork{
-    width: 10vw;
+    width: 12vw;
     margin-top: 50px;
     transform:scaleX(-1);
     display:none;
@@ -18,8 +18,8 @@
     width: 12vw;
 }
 
-#bag{
-    width:10vw;
+#box{
+    width:20vw;
     display:none;
 }
 
@@ -41,4 +41,26 @@
     display:table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+#giftcard,#boxback,#boxfront,#boxlid{
+    width:25vw;
+}
+
+#textTwoDiv{
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+
+#textTwoText{
+    align-items: center;
+    justify-content: center;
+
+    right:0;
+    bottom:0;
+    width:25vw;
+    position:absolute;
+    text-align: center;
 }
