@@ -16,6 +16,7 @@
 
 #textOneDiv{
     width: 12vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #box{
@@ -35,6 +36,8 @@
     height:15vw;
     /* vertical-align: middle; */
     display:table;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 #textTwo{
